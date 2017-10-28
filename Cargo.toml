@@ -1,0 +1,6 @@
+[package]
+name = "dsym_demo"
+version = "0.1.0"
+authors = ["Nelson Chen <crazysim@gmail.com>"]
+
+[dependencies]
