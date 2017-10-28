@@ -6,9 +6,10 @@ rust:
 os:
   - linux
   - osx
-osx_image:
-  - xcode9.1
-  - xcode8
+  
 matrix:
   allow_failures:
     - rust: nightly
+  osx_image:
+    - xcode9.1
+    - xcode8
